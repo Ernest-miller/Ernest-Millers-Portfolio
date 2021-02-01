@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+
+:root {
+    --mainbc: #ade8f4;
+    --headerbc: #0077b6;
+    --projectsbc: #48cae4;
+    --footerbc: #00b4d8;
+}
+
+body {
+    text-align: center;
+    background: var(--mainbc);
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+header {
+    background: var(--headerbc);
+    border-bottom: 2px solid black;
+}
+li {
+    list-style: none;
+}
+
+.nav-item, .my-work {
+    padding: 10px;
+}
+
+.project-name {
+    float: left;
+}
+
+.project-info {
+    border-bottom: 2px solid black;
+}
+
+.my-work {
+    background: var(--projectsbc);
+    border: 2px solid black;
+    float: right;
+}
+
+.my-work-img {
+    float:right;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: var(--footerbc);
+    border-top: 2px solid black;
+}
+.footer-nav-items {
+    border-bottom: 2px solid black;
+    float: left;
+    padding-left: 50px;
+}
