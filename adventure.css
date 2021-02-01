@@ -1,0 +1,119 @@
+let gameBoard = document.getElementById('gameBoard');
+let start = document.getElementById('start');
+let help = document.getElementById('help');
+let battleForecast = document.getElementById('battleForecast');
+let healthBar = document.getElementById('healthBar');
+
+
+function characterAttributes() {
+    var jimHealth = 3;
+    var attack = 1;
+
+    let allEnemiesHealth = [
+        enemyHealth_1 = 1,
+        enemyHealth_2 = 1,
+        enemyHealth_3 = 1,
+        enemyHealth_4 = 1,
+        enemyHealth_5 = 1,
+        enemyHealth_6 = 1,
+        enemyHealth_7 = 1,
+        enemyHealth_8 = 1,
+        enemyHealth_9 = 1,
+        enemyHealth_10 = 1,
+    ];
+};
+
+function hideBackgroundItems() {
+    document.getElementById('mainBG').style.visibility = "hidden";
+    document.getElementById('start').style.visibility = "hidden";
+    document.getElementById('help').style.visibility = "hidden";
+    document.getElementById('battleForecast').style.visibility = "visible";
+    document.getElementById('healthBar').style.visibility = "visible";
+};
+
+function allLevels() {
+    let enemyInfo = [alert("Enemy approches. What is your action?"), enemyHealth = 1]
+    enemyInfo.forEach(enemyElements => {  console.log(enemyElements);  });
+
+    function level_1() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level1_ = document.createElement('div');
+            level1_.classList.add('level1_', `level1_${i}`);
+            gameBoard.appendChild(level1_);
+        };
+    };
+
+    function level_2() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level2_ = document.createElement('div');
+            level2_.classList.add('level2_', `level2_${i}`);
+            gameBoard.appendChild(level2_);
+        };
+    };
+
+    function level_3() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level3_ = document.createElement('div');
+            level3_.classList.add('level3_', `level3_${i}`);
+            gameBoard.appendChild(level3_);
+        };
+    };
+
+    function level_4() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level4_ = document.createElement('div');
+            level4_.classList.add('level4_', `level4_${i}`);
+            gameBoard.appendChild(level4_);
+        };
+    };
+
+    function level_5() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level5_ = document.createElement('div');
+            level5_.classList.add('level5_', `level5_${i}`);
+            gameBoard.appendChild(level1_);
+        };
+    };
+
+
+    function level_6() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level6_ = document.createElement('div');
+            level6_.classList.add('level6_', `level6_${i}`);
+            gameBoard.appendChild(level6_);
+        };
+    };
+
+
+    function level_7() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level7_ = document.createElement('div');
+            level7_.classList.add('level7_', `level7_${i}`);
+            gameBoard.appendChild(level7_);
+        };
+    };
+
+    function level_8() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level8_ = document.createElement('div');
+            level8_.classList.add('level8_', `level8_${i}`);
+            gameBoard.appendChild(level8_);
+        };
+    };
+
+    function level_9() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level9_ = document.createElement('div');
+            level9_.classList.add('level9_', `level9_${i}`);
+            gameBoard.appendChild(level9_);
+        };
+    };
+
+    function level_10() {
+        for (let i = 0; i < sectionBuilder; i++) {
+            let level10_ = document.createElement('div');
+            level10_.classList.add('level10_', `level10_${i}`);
+            gameBoard.appendChild(level10_);
+        };
+    };
+};
